@@ -8,7 +8,7 @@ https://uk-air.defra.gov.uk/data/pcm-data
 
 The scripts are:
 
-*  preprocess.py  -  converts the data to latitude and longitude. input file mapno22023.csv from the government site. Creates the file data.csv. The  osgb library converts the coordinate system.
+*  preprocess.py  -  converts the data to latitude and longitude. input file mapno22023.csv from the government site. Creates the file data.csv. The  osgb library converts the coordinate system (https://github.com/thruston/grid-banger).
 *  create_plot.py -  creates the map from the data.csv. It was created using Gemini. The underlying library is 
   folium https://python-visualization.github.io/folium/latest/
 
