@@ -1,4 +1,4 @@
-# pollution_uk
+# Creating maps of pollution over the UK
 
 A collection of scripts to create a map
 of pollution over the UK. The input is the
@@ -8,9 +8,9 @@ https://uk-air.defra.gov.uk/data/pcm-data
 
 The scripts are:
 
-*  preprocess.py  -  converts the data to lattitude and longnitude. input file mapno22023.csv from the government site. Creates the file data.csv
-*  create_plot.py -  creates the map from the data.csv
-
+*  preprocess.py  -  converts the data to latitude and longitude. input file mapno22023.csv from the government site. Creates the file data.csv. The  osgb library converts the coordinate system.
+*  create_plot.py -  creates the map from the data.csv. It was created using Gemini. The underlying library is 
+  folium https://python-visualization.github.io/folium/latest/
 
 
 ## Final plot
