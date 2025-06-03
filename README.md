@@ -15,7 +15,8 @@ The scripts are:
 
 ## Final plot
 
-The scripts produce pollution over the UK
+The scripts produce pollution over the UK. This is a heatmap of the pollutant NO2 in 2023
+over the UK. The source data is the file mapno22023.csv from https://uk-air.defra.gov.uk/data/pcm-data
 
 ![test](https://github.com/cmcneile/pollution_uk/blob/main/no2UK.png?raw=true)
 
